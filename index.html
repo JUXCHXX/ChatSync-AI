@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ChatSync AI — Tu negocio responde, aunque tú no puedas | Digital Uplink Co.</title>
+<meta name="description" content="ChatSync AI convierte cada mensaje de WhatsApp en una cita agendada, automáticamente. Agente de IA 24/7 para negocios en EE.UU. y Latinoamérica." />
+<meta name="author" content="Digital Uplink Co." />
+<meta property="og:title" content="ChatSync AI — Tu negocio responde, aunque tú no puedas" />
+<meta property="og:description" content="Agente de IA conversacional para WhatsApp. Atiende, agenda y da seguimiento 24/7." />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="es_ES" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" type="image/png" href="./image/Favico ChatSync.png">
+</head>
+<body>
+
+<!-- Scroll progress bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="./image/LOGO_CHATSYNC_AI.png" alt="ChatSync AI Logo" style="height:70px;width:auto;">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#problema">Problema</a></li>
+      <li><a href="#como-funciona">Cómo funciona</a></li>
+      <li><a href="#segmentos">Para quién</a></li>
+      <li><a href="#precios">Precios</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="https://wa.me/573226429963" class="btn btn-primary nav-cta">Empieza Gratis</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menú">☰</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="./image/VIDEO_NEURAL_BACKGROUND.mp4" type="video/mp4" />
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="particles" id="particles"></div>
+
+  <div class="hero-content">
+    <div class="badge pulse">⚡ Inteligencia Artificial · WhatsApp · 24/7</div>
+    <h1 class="hero-title reveal-stagger">
+      <span>Tu negocio responde,</span>
+      <span class="accent">aunque tú no puedas.</span>
+    </h1>
+    <p class="hero-sub">
+      ChatSync AI convierte cada mensaje de WhatsApp en una cita agendada,
+      automáticamente. Sin perder un solo cliente. Sin que tú levantes un dedo.
+    </p>
+    <div class="hero-ctas">
+      <a href="https://wa.me/573226429963" class="btn btn-primary btn-lg">Empieza Gratis 7 Días</a>
+      <a href="#como-funciona" class="btn btn-ghost">Ver cómo funciona ↓</a>
+    </div>
+    <div class="social-proof">
+      <div class="avatars">
+        <img src="./image/AVATAR_SOCIAL_1.jpg" alt="Cliente" class="avatar">
+        <img src="./image/AVATAR_SOCIAL_2.jpg" alt="Cliente" class="avatar">
+        <img src="./image/AVATAR_SOCIAL_3.jpg" alt="Cliente" class="avatar">
+        <img src="./image/AVATAR_SOCIAL_4.jpg" alt="Cliente" class="avatar">
+        <img src="./image/AVATAR_SOCIAL_5.jpg" alt="Cliente" class="avatar">
+      </div>
+      <span>+200 negocios ya no pierden clientes</span>
+    </div>
+  </div>
+</header>
+
+<!-- PROBLEMA / SOLUCIÓN -->
+<section id="problema" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Cada mensaje sin respuesta es <span class="accent">dinero que se va.</span></h2>
+    <div class="compare-grid">
+      <div class="compare-card bad reveal-left">
+        <h3>Antes de ChatSync</h3>
+        <ul>
+          <li><span class="ico ico-bad">✕</span> Clientes esperan horas</li>
+          <li><span class="ico ico-bad">✕</span> Citas perdidas por olvido</li>
+          <li><span class="ico ico-bad">✕</span> Tú pegado al teléfono</li>
+          <li><span class="ico ico-bad">✕</span> Leads fríos sin seguimiento</li>
+        </ul>
+      </div>
+      <div class="compare-card good reveal-right">
+        <h3>Con ChatSync AI</h3>
+        <ul>
+          <li><span class="ico ico-good">✓</span> Respuesta en segundos</li>
+          <li><span class="ico ico-good">✓</span> Recordatorios automáticos</li>
+          <li><span class="ico ico-good">✓</span> Trabajas, la IA atiende</li>
+          <li><span class="ico ico-good">✓</span> CRM automático en tiempo real</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="como-funciona" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Cómo funciona</h2>
+    <div class="steps">
+      <div class="step-line"></div>
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <div class="step-icon">📱</div>
+        <h3>Conecta tu WhatsApp</h3>
+        <p>Vinculamos tu número en minutos, sin apps extra.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <div class="step-icon">🧠</div>
+        <h3>La IA aprende tu negocio</h3>
+        <p>Configura horarios, servicios y respuestas.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <div class="step-icon">📅</div>
+        <h3>Tus clientes agendan solos</h3>
+        <p>Confirmaciones, recordatorios y seguimientos en piloto automático.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARA QUIÉN -->
+<section id="segmentos" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Hecho para negocios que no se pueden dar el lujo de <span class="accent">perder un cliente.</span></h2>
+    <div class="segments-grid">
+      <div class="segment-card reveal"><img src="./image/IMAGEN_SEGMENTO_SALUD.png" alt="Salud" class="seg-img"><div class="seg-body"><span class="seg-emoji">🦷</span><h4>Salud</h4><p>Dentistas, médicos, psicólogos</p></div></div>
+      <div class="segment-card reveal"><img src="./image/IMAGEN_SEGMENTO_SERVICIOS.jpg" alt="Servicios" class="seg-img"><div class="seg-body"><span class="seg-emoji">🔧</span><h4>Servicios para el Hogar</h4><p>Plomeros, electricistas, contratistas</p></div></div>
+      <div class="segment-card reveal"><img src="./image/IMAGEN_SEGMENTO_PROFESIONALES.jpg" alt="Profesionales" class="seg-img"><div class="seg-body"><span class="seg-emoji">⚖️</span><h4>Profesionales Independientes</h4><p>Abogados, consultores</p></div></div>
+      <div class="segment-card reveal"><img src="./image/IMAGEN_SEGMENTO_BIENESTAR.jpg" alt="Bienestar" class="seg-img"><div class="seg-body"><span class="seg-emoji">✂️</span><h4>Bienestar y Estética</h4><p>Barberías, salones, spas</p></div></div>
+      <div class="segment-card reveal"><img src="./image/IMAGEN_SEGMENTO_FITNESS.jpg" alt="Fitness" class="seg-img"><div class="seg-body"><span class="seg-emoji">🏋️</span><h4>Fitness y Entrenamiento</h4><p>Coaches, gimnasios</p></div></div>
+      <div class="segment-card reveal"><img src="./image/IMAGEN_SEGMENTO_INMOBILIARIA.jpg" alt="Inmobiliaria" class="seg-img"><div class="seg-body"><span class="seg-emoji">🏠</span><h4>Inmobiliaria</h4><p>Agentes, arrendadores</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRECIOS -->
+<section id="precios" class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Elige tu nivel. <span class="accent">Escala cuando estés listo.</span></h2>
+    <p class="section-sub reveal">Todos los planes incluyen 7 días de prueba gratuita.</p>
+    <div class="pricing-grid">
+      <div class="price-card reveal">
+        <h3>Essential</h3>
+        <div class="price"><span class="amount">$79</span><span class="per">/mes</span></div>
+        <ul>
+          <li>Atención IA 24/7 en WhatsApp</li>
+          <li>Agendamiento Automatizado</li>
+          <li>Sincronización Google Calendar</li>
+          <li>Recordatorios Anti-Ausencia</li>
+          <li>1–3 Números de WhatsApp</li>
+        </ul>
+        <a href="https://wa.me/573226429963" class="btn btn-outline">Comenzar con Essential</a>
+      </div>
+
+      <div class="price-card popular reveal">
+        <div class="popular-tag">⭐ MÁS POPULAR</div>
+        <h3>Growth</h3>
+        <div class="price"><span class="amount">$99</span><span class="per">/mes</span></div>
+        <ul>
+          <li>Todo lo del Essential</li>
+          <li>Recuperación de Reservas Abandonadas</li>
+          <li>Campañas Promocionales Semanales</li>
+          <li>Mini-CRM (Pipeline de Leads)</li>
+          <li>Calificación Inteligente de Leads</li>
+          <li>Seguimientos Automáticos Inteligentes</li>
+        </ul>
+        <a href="https://wa.me/573226429963" class="btn btn-primary">Comenzar con Growth</a>
+      </div>
+
+      <div class="price-card reveal">
+        <h3>Élite</h3>
+        <div class="price"><span class="amount">$149</span><span class="per">/mes</span></div>
+        <ul>
+          <li>Todo lo de Growth</li>
+          <li>Flujos de Trabajo Ilimitados</li>
+          <li>Links de Pago en el Chat</li>
+          <li>Panel de Analíticas y Conversión</li>
+          <li>Transcripción de Audios (Voz a Texto)</li>
+          <li>Acceso Multiusuario</li>
+          <li>Integraciones Zapier / Make</li>
+          <li>Biblioteca de Plantillas</li>
+          <li>🎁 Diseño Web Profesional INCLUIDO</li>
+        </ul>
+        <a href="https://wa.me/573226429963" class="btn btn-outline">Comenzar con Élite</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title reveal">Negocios que ya dejaron de <span class="accent">perder clientes.</span></h2>
+    <div class="testimonials">
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Antes perdía 5 citas a la semana por no responder rápido. Ahora mi calendario está lleno."</p>
+        <div class="testi-author">
+          <img src="./image/AVATAR_TESTIMONIO_1.jpg" alt="Carlos M." class="avatar lg">
+          <div><strong>Carlos M.</strong><span>Barbería</span></div>
+        </div>
+      </div>
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Mis pacientes confirman solos. Reduje los no-shows un 70%."</p>
+        <div class="testi-author">
+          <img src="./image/AVATAR_TESTIMONIO_2.jpg" alt="Dra. Patricia V." class="avatar lg">
+          <div><strong>Dra. Patricia V.</strong><span>Odontología</span></div>
+        </div>
+      </div>
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Lo conecté un martes y el viernes ya tenía 3 citas nuevas que antes hubiera perdido."</p>
+        <div class="testi-author">
+          <img src="./image/AVATAR_TESTIMONIO_3.jpg" alt="Roberto A." class="avatar lg">
+          <div><strong>Roberto A.</strong><span>Consultor</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTRICAS -->
+<section class="section metrics-section">
+  <div class="container metrics">
+    <div class="metric reveal"><div class="num" data-count="200" data-prefix="+">+0</div><div class="label">Negocios activos</div></div>
+    <div class="metric reveal"><div class="num" data-count="98" data-suffix="%">0%</div><div class="label">Tasa de respuesta</div></div>
+    <div class="metric reveal"><div class="num" data-count="70" data-prefix="-" data-suffix="%">-0%</div><div class="label">Reducción de No-Shows</div></div>
+    <div class="metric reveal"><div class="num static">24/7</div><div class="label">Disponibilidad total</div></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <div class="container narrow">
+    <h2 class="section-title reveal">Preguntas frecuentes</h2>
+    <div class="faq">
+      <details class="faq-item reveal"><summary>¿Necesito descargar algo para usar ChatSync AI?</summary><p>No. Todo funciona sobre tu WhatsApp actual. No instalas apps adicionales.</p></details>
+      <details class="faq-item reveal"><summary>¿Cómo se integra con mi WhatsApp actual?</summary><p>Conectamos tu número en minutos mediante un proceso guiado. Mantienes tu número, tu historial y tus contactos.</p></details>
+      <details class="faq-item reveal"><summary>¿Puedo cancelar cuando quiera?</summary><p>Sí. Cancelas con un clic, sin permanencia ni penalizaciones.</p></details>
+      <details class="faq-item reveal"><summary>¿ChatSync AI es oficial de WhatsApp?</summary><p>Operamos sobre la infraestructura WhatsApp Business API, cumpliendo con sus políticas.</p></details>
+      <details class="faq-item reveal"><summary>¿Qué pasa si mis clientes escriben fuera del horario?</summary><p>La IA responde 24/7. Agenda, confirma o avisa según las reglas que tú definas.</p></details>
+      <details class="faq-item reveal"><summary>¿Cuánto tiempo toma la configuración inicial?</summary><p>La activación toma menos de 30 minutos. En menos de 24 horas estás recibiendo citas automáticas.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <div class="container">
+    <h2>Empieza hoy. Tu primer cliente automatizado puede ser <em>esta noche.</em></h2>
+    <a href="https://wa.me/573226429963" class="btn btn-dark btn-lg">→ Activar ChatSync AI Gratis</a>
+    <p class="fine">Sin tarjeta de crédito. 7 días gratis. Cancela cuando quieras.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="./image/LOGO DIGITAL UPLINK CO.png" alt="Digital Uplink Co. Logo" style="height:36px;width:auto;">
+      <p class="muted">ChatSync AI es un producto de Digital Uplink Co.</p>
+      <p class="muted">WhatsApp: +57 322 642 9963</p>
+    </div>
+    <div>
+      <h5>Producto</h5>
+      <ul><li><a href="#segmentos">Características</a></li><li><a href="#precios">Planes y Precios</a></li><li><a href="#como-funciona">Cómo funciona</a></li></ul>
+    </div>
+    <div>
+      <h5>Empresa</h5>
+      <ul><li><a href="#">Sobre Digital Uplink Co.</a></li><li><a href="#">Términos de Servicio</a></li><li><a href="#">Política de Privacidad</a></li></ul>
+    </div>
+    <div>
+      <h5>Síguenos</h5>
+      <ul>
+        <li><a href="[LINK_INSTAGRAM]">Instagram</a></li>
+        <li><a href="[LINK_FACEBOOK]">Facebook</a></li>
+        <li><a href="[LINK_LINKEDIN]">LinkedIn</a></li>
+        <li><a href="[LINK_TIKTOK]">TikTok</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy">© 2026 Digital Uplink Co. Todos los derechos reservados. ChatSync AI™</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
